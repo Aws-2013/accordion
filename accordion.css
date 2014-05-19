@@ -1,0 +1,54 @@
+.accordion .accordion_panel a {
+    display: block;
+    padding: 5px;
+    background: #e1e1e1 url(http://www.ipreo.com/images/grad.jpg);
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: 1px solid #e1e1e1
+}
+.accordion_panel {
+    border: 1px solid #ccc;
+    margin: 5px;
+    border-radius: 6px 6px 6px 6px;
+    overflow: auto;
+    background: #fff;
+}
+.accordion_panel a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.accordion_panel a:visited{
+    color:#000;
+}
+.accordion {
+    border: 1px solid #ccc;
+    width: 200px;
+    border-radius: 6px 6px 6px 6px;
+    background:#333;
+    float: left;
+    margin: 10px 20px;
+}
+.accordion_panel_content {
+    height: 0;
+    overflow: auto;
+    display: block;
+}
+.accordion_panel_content .content{
+    padding:5px
+}
+.tooltip {
+    display: none;
+    background-color: #fff;
+    color: #000000;
+    padding: 2px;
+    border: 0px solid #e1e1e1;
+    position: absolute;
+}
+.accordion_title {
+    padding:5px;				
+    background: #333 url(http://www.fipreo.com/images/grad.jpg);
+    font-size:1.2em;
+    font-weight:bold;
+    color:#fff;
+    border-radius: 6px 6px 0px 0px;
+}
+
